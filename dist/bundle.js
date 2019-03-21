@@ -86,26 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/add.js":
-/*!********************!*\
-  !*** ./src/add.js ***!
-  \********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (a, b) {\n  var _name = {\n    name: 'hello world,'\n  },\n      name = _name.name;\n  return name + a + b;\n});\n\n//# sourceURL=webpack:///./src/add.js?");
-
-/***/ }),
-
 /***/ "./src/main.js":
 /*!*********************!*\
   !*** ./src/main.js ***!
   \*********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// import Add from './add'\nvar Add = __webpack_require__(/*! ./add */ \"./src/add.js\").default;\n\nconsole.log(Add, Add(1, 2), 123);\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("console.log(123)\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ })
 
