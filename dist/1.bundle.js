@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{2:function(n,o,e){"use strict";e.r(o),o.default=function(){return"hello, aysnc module"}}}]);
